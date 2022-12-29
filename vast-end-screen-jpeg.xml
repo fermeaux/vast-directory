@@ -1,0 +1,72 @@
+<VAST version="3.0">
+    <Ad id="{$CRID$}">
+        <InLine id="{$CRID$}">
+            <AdSystem version="1.0">
+                <![CDATA[AdServer]]>
+            </AdSystem>
+            <AdTitle>
+                <![CDATA[Video Ad]]>
+            </AdTitle>
+            <Impression>
+                <![CDATA[{$IMPRESSION_TRACK_URL$}]]>
+            </Impression>
+            <Creatives>
+                <Creative id="1" sequence="1">
+                    <Linear skipoffset="00:00:05">
+                        <Duration>
+                            00:00:30
+                        </Duration>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://localhost:3090/video-start]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://localhost:3090/video-firstQuartile]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[https://localhost:3090/video-midpoint]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[https://localhost:3090/video-thirdQuartile]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://localhost:3090/video-complete]]>
+                            </Tracking>
+                            <Tracking event="skip">
+                                <![CDATA[https://localhost:3090/video-skip]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[{$CLICK_THROUGH_URL$}]]>
+                            </ClickThrough>
+                            <ClickTracking>
+                                <![CDATA[{$ASYNC_CLICK_URL$}]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="496" type="video/mp4" width="1080" height="1920">
+                                <![CDATA[https://d3jdaktv9qp9iu.cloudfront.net/c/uUG5FNBucTqxB4tBIehesesk.mp4]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative adID="{$CRID$}-Companion">
+                    <CompanionAds required="none">
+                        <Companion width="1080" height="1920">
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[https://d3jdaktv9qp9iu.cloudfront.net/uploads/banners/8FUvlZhH6a1fBN79dj.jpeg]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[http://google.com]]>
+                            </CompanionClickThrough>
+                            <CompanionClickTracking>
+                                <![CDATA[http://localhost:3090/clicktracking]]>
+                            </CompanionClickTracking>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
