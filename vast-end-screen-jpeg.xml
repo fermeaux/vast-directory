@@ -2,7 +2,7 @@
     <Ad id="{$CRID$}">
         <InLine id="{$CRID$}">
             <AdSystem version="1.0">
-                <![CDATA[AdServer]]>
+                <![CDATA[Smadex]]>
             </AdSystem>
             <AdTitle>
                 <![CDATA[Video Ad]]>
