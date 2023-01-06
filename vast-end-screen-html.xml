@@ -38,15 +38,21 @@
                         </TrackingEvents>
                         <VideoClicks>
                             <ClickThrough>
-                                <![CDATA[{$CLICK_THROUGH_URL$}]]>
+                                <![CDATA[https://www.kwery.fr/?code=video-click-through]]>
                             </ClickThrough>
                             <ClickTracking>
-                                <![CDATA[{$ASYNC_CLICK_URL$}]]>
+                                <![CDATA[https://www.kwery.fr/?code=video-click-tracking]]>
                             </ClickTracking>
                         </VideoClicks>
                         <MediaFiles>
-                            <MediaFile delivery="progressive" bitrate="496" type="video/mp4" width="1080" height="1920">
-                                <![CDATA[https://d3jdaktv9qp9iu.cloudfront.net/c/uUG5FNBucTqxB4tBIehesesk.mp4]]>
+                            <MediaFile delivery="progressive" bitrate="97" width="256" height="144" type="application/x-mpegURL">
+                                <![CDATA[ https://medias.presage.io/medias/videos/1876c1c4-47e9-461e-b2a9-8188c9b42c8f.mp4-transcoded/playlist.m3u8 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="97" width="256" height="144" type="video/mp4">
+                                <![CDATA[ https://medias.devc.cloud.ogury.io/medias/videos/358fb531-9fe4-4ba2-ae64-43ba956245c2.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile width="1080" height="608" type="application/javascript" delivery="progressive" maintainAspectRatio="true" scalable="true" apiFramework="VPAID">
+                                <![CDATA[ https://ads.celtra.com/85f1d3c6/vpaid.js?sessionId=s1660895190xf657b7ae0002a6x56942421&scriptId=blank-script-id&eventIndex=0&tagVersion=url-standard-7&externalAdServer=Ogury&externalBundleId=%5Bapp_bundle%5D ]]>
                             </MediaFile>
                         </MediaFiles>
                     </Linear>
@@ -89,10 +95,10 @@
                             ]]>
                             </HTMLResource>
                             <CompanionClickThrough>
-                                <![CDATA[http://google.com]]>
+                                <![CDATA[https://www.kwery.fr/?code=companion-click-through]]>
                             </CompanionClickThrough>
                             <CompanionClickTracking>
-                                <![CDATA[http://localhost:3090/clicktracking]]>
+                                <![CDATA[https://www.kwery.fr/?code=companion-click-tracking]]>
                             </CompanionClickTracking>
                         </Companion>
                     </CompanionAds>
