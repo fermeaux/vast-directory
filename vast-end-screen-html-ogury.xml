@@ -1,0 +1,109 @@
+<VAST version="3.0">
+    <Ad id="{$CRID$}">
+        <InLine id="{$CRID$}">
+            <AdSystem version="1.0">
+                <![CDATA[Ogury]]>
+            </AdSystem>
+            <AdTitle>
+                <![CDATA[Video Ad]]>
+            </AdTitle>
+            <Impression>
+                <![CDATA[{$IMPRESSION_TRACK_URL$}]]>
+            </Impression>
+            <Creatives>
+                <Creative id="1" sequence="1">
+                    <Linear skipoffset="00:00:05">
+                        <Duration>
+                            00:00:30
+                        </Duration>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://localhost:3090/video-start]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://localhost:3090/video-firstQuartile]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[https://localhost:3090/video-midpoint]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[https://localhost:3090/video-thirdQuartile]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://localhost:3090/video-complete]]>
+                            </Tracking>
+                            <Tracking event="skip">
+                                <![CDATA[https://localhost:3090/video-skip]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://www.kwery.fr/?code=video-click-through]]>
+                            </ClickThrough>
+                            <ClickTracking>
+                                <![CDATA[https://www.kwery.fr/?code=video-click-tracking]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="97" width="256" height="144" type="application/x-mpegURL">
+                                <![CDATA[ https://medias.presage.io/medias/videos/1876c1c4-47e9-461e-b2a9-8188c9b42c8f.mp4-transcoded/playlist.m3u8 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="97" width="256" height="144" type="video/mp4">
+                                <![CDATA[ https://medias.devc.cloud.ogury.io/medias/videos/358fb531-9fe4-4ba2-ae64-43ba956245c2.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile width="1080" height="608" type="application/javascript" delivery="progressive" maintainAspectRatio="true" scalable="true" apiFramework="VPAID">
+                                <![CDATA[ https://ads.celtra.com/85f1d3c6/vpaid.js?sessionId=s1660895190xf657b7ae0002a6x56942421&scriptId=blank-script-id&eventIndex=0&tagVersion=url-standard-7&externalAdServer=Ogury&externalBundleId=%5Bapp_bundle%5D ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative adID="{$CRID$}-Companion">
+                    <CompanionAds required="none">
+                        <Companion width="1080" height="1920">
+                            <HTMLResource>
+                                <![CDATA[<html>
+                                    <head>
+                                        <meta charset="utf-8">
+                                        <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,minimum-scale=1,maximum-scale=1">
+                                        <meta name="apple-mobile-web-app-capable" content="yes">
+                                        <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+                                        <meta name="format-detection" content="telephone=no">
+                                        <meta name="renderer" content="webkit">
+                                        <meta name="force-rendering" content="webkit">
+                                        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+                                        <meta name="msapplication-tap-highlight" content="no">
+                                        <meta name="full-screen" content="yes">
+                                        <meta name="x5-fullscreen" content="true">
+                                        <meta name="360-fullscreen" content="true">
+                                        <meta name="screen-orientation" content="">
+                                        <meta name="x5-orientation" content="">
+                                        <meta name="x5-page-mode" content="app">
+                                        <style>
+                                            html{-ms-touch-action:none} body,canvas,div{outline:0;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;-khtml-user-select:none} body{position:absolute;top:0;left:0;width:100%;height:100%;padding:0;border:0;margin:0;cursor:default} #Cocos2dGameContainer{position:absolute;margin:0;overflow:hidden;left:0;top:0;display:-webkit-box;-webkit-box-orient:horizontal;-webkit-box-align:center;-webkit-box-pack:center} canvas{background-color:rgba(0,0,0,0)}
+                                        </style>
+                                    </head>
+                                    <body>
+                                        <img onclick="redirect()" id="CtaButton" src="https://static-content-1.smadex.com/uploads/creative-testing/Playables/DragonCity/cta.png" style="position: absolute; top: 37.5vh; width: 40vw; height: auto; margin: 0 30vw; z-index: 100;"/>
+                                        <div id="ClickContainer" style="position: absolute; z-index: 0.5; width: 100vw; height: 100vh;"></div>
+                                        <canvas id="GameCanvas" oncontextmenu="event.preventDefault()" tabindex="0"></canvas>
+                                        <script type="text/javascript">
+                                            let clickTracking = "{$CLICK_TRACK_URL$}", clickThrough = "{$CLICK_THROUGH_URL$}", asyncClick = "{$ASYNC_CLICK_URL$}", exchangeId = "{$EXCHANGE_ID$}";
+                                        </script>
+                                        <script src="https://static-content-1.smadex.com/uploads/creative-testing/Playables/DragonCity/script_3clicks.js"></script>
+                                    </body>
+                                </html>
+                            ]]>
+                            </HTMLResource>
+                            <CompanionClickThrough>
+                                <![CDATA[https://www.kwery.fr/?code=companion-click-through]]>
+                            </CompanionClickThrough>
+                            <CompanionClickTracking>
+                                <![CDATA[https://www.kwery.fr/?code=companion-click-tracking]]>
+                            </CompanionClickTracking>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
