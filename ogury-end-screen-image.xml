@@ -1,0 +1,67 @@
+<VAST version="4.1">
+    <Ad id="1675084609151">
+        <InLine>
+            <AdSystem>
+                <![CDATA[ Ogury Admin Adserver ]]>
+            </AdSystem>
+            <AdServingID>
+                <![CDATA[ Ogury-cf9435d9-f806-4a49-9092-b9eaca62cd6e ]]>
+            </AdServingID>
+            <AdTitle>
+                <![CDATA[ AdExp - End Screen - Vast Image Resource ]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[ AdExp - End Screen - Vast Image Resource ]]>
+            </Description>
+            <Impression>
+                <![CDATA[ https://impression.dumb.io/imps ]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <UniversalAdId idRegistry="unknown">
+                        <![CDATA[ unknown ]]>
+                    </UniversalAdId>
+                    <Linear>
+                        <Duration>
+                            <![CDATA[ 00:00:15 ]]>
+                        </Duration>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[ https://www.ogury.com ]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="720" width="640" height="360" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/35674f8c-e47a-4a56-b243-848ab36932f1.mp4-transcoded/video_360p.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="1200" width="854" height="480" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/35674f8c-e47a-4a56-b243-848ab36932f1.mp4-transcoded/video_480p.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="2400" width="1080" height="608" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/35674f8c-e47a-4a56-b243-848ab36932f1.mp4-transcoded/video_720p.mp4 ]]>
+                            </MediaFile>
+                            <MediaFile delivery="progressive" bitrate="5400" width="1080" height="608" type="video/mp4">
+                                <![CDATA[ https://medias.presage.io/medias/videos/35674f8c-e47a-4a56-b243-848ab36932f1.mp4-transcoded/video_1080p.mp4 ]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative adID="{$CRID$}-Companion">
+                    <CompanionAds required="none">
+                        <Companion width="1080" height="1920">
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[https://cdn.jsdelivr.net/gh/fermeaux/vast-directory@main/520_867.jpg]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[https://www.ogury.com/?code=companion-click-through]]>
+                            </CompanionClickThrough>
+                            <CompanionClickTracking>
+                                <![CDATA[https://www.ogury.com/?code=companion-click-tracking]]>
+                            </CompanionClickTracking>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
