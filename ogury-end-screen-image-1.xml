@@ -1,0 +1,58 @@
+<VAST version="4.1">
+    <Ad id="1675084609151">
+        <InLine>
+            <AdSystem>
+                <![CDATA[ Ogury Admin Adserver ]]>
+            </AdSystem>
+            <AdServingID>
+                <![CDATA[ Ogury-cf9435d9-f806-4a49-9092-b9eaca62cd6e ]]>
+            </AdServingID>
+            <AdTitle>
+                <![CDATA[ AdExp - End Screen - Vast Image Resource ]]>
+            </AdTitle>
+            <Description>
+                <![CDATA[ AdExp - End Screen - Vast Image Resource ]]>
+            </Description>
+            <Impression>
+                <![CDATA[ https://impression.dumb.io/imps ]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <UniversalAdId idRegistry="unknown">
+                        <![CDATA[ unknown ]]>
+                    </UniversalAdId>
+                    <Linear>
+                        <Duration>
+                            <![CDATA[ 00:00:30 ]]>
+                        </Duration>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[ https://www.dragoncitygame.com/ ]]>
+                            </ClickThrough>
+                        </VideoClicks>
+                        <MediaFiles>
+                            <MediaFile delivery="progressive" bitrate="496" type="video/mp4" width="1080" height="1920">
+                                <![CDATA[https://cdn.jsdelivr.net/gh/fermeaux/vast-directory@main/game.mp4]]>
+                            </MediaFile>
+                        </MediaFiles>
+                    </Linear>
+                </Creative>
+                <Creative adID="{$CRID$}-Companion">
+                    <CompanionAds required="none">
+                        <Companion width="1080" height="1920">
+                            <StaticResource creativeType="image/jpeg">
+                                <![CDATA[https://cdn.jsdelivr.net/gh/fermeaux/vast-directory@main/game.jpeg]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[https://www.dragoncitygame.com/?code=companion-click-through]]>
+                            </CompanionClickThrough>
+                            <CompanionClickTracking>
+                                <![CDATA[https://www.dragoncitygame.com/?code=companion-click-tracking]]>
+                            </CompanionClickTracking>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
