@@ -1,0 +1,68 @@
+<VAST version="3.0">
+    <Ad id="c7fd4b3d-011d-46cf-82d0-9f8aad5a7cac">
+        <InLine>
+            <AdSystem>Liftoff</AdSystem>
+            <AdTitle>413806</AdTitle>
+            <Impression>
+                <![CDATA[https://impression-asia.liftoff.io/******/beacon?ad_group_id=167279&channel_id=125&creative_id=413806&auction_id=20231017075931225b67d482c203b41288376d3c&loid=E0UPPUyq9c2Ct0Uopbp0&origin=haggler-******029]]>
+            </Impression>
+            <Creatives>
+                <Creative>
+                    <Linear skipoffset="00:00:05">
+                        <Duration>00:00:29</Duration>
+                        <MediaFiles>
+                            <MediaFile width="360" height="640" type="video/mp4" bitrate="1075" delivery="progressive" scalable="true" maintainAspectRatio="true">
+                                <![CDATA[https://cdn.liftoff-creatives.io/dev/customers/c23243a642/videos/mobile/6ff820f083b6a5b49df9.mp4]]>
+                            </MediaFile>
+                        </MediaFiles>
+                        <TrackingEvents>
+                            <Tracking event="start">
+                                <![CDATA[https://adexp.liftoff.io/event/vast/start/29c98eCO-aChIoMjAyMzEwMTcwNzU5MzEyMjViNjdkNDgyYzIwM2I0MTI4ODM3NmQzY-oBFEUwVVBQVXlxOWMyQ3QwVW9wYnAwGLjNluWzMSB9KO6gGTCsFToWY29tLnRoaW5rd2FyZS5pbmF2aWFpckIaY3JzZXJ2ZS1za2FuLXBvZC1leHAtdGllcjJCEmhscy12aWRlby1wcm9kLWhsc0IYaW5tb2JpLTMtcGFnZS1leHBlcmltZW50SgplN2IzMTQ0NTA4UAJaA0tPUmACaARyDmFwLW5vcnRoZWFzdC0x4AECgAF9kgECa2-YAQKhAQAAAAAAALA_qgEHMzIweDQ4MLIBEU1hcHMgJiBOYXZpZ2F0aW9uugEw7JWE7J2064KY67mEIOyXkOyWtCAtIOuPiCDrsoTripQg64K067mE6rKM7J207IWYwgEZdmFzdC0wZDA1MzBkM2U3ODhhNTFiOGZhM9IBAzMyNtoBBXZpZGVv?playhead=[CONTENTPLAYHEAD]&sr=1]]>
+                            </Tracking>
+                            <Tracking event="firstQuartile">
+                                <![CDATA[https://adexp.liftoff.io/event/vast/firstQuartile/29c98eCO-aChIoMjAyMzEwMTcwNzU5MzEyMjViNjdkNDgyYzIwM2I0MTI4ODM3NmQzY-oBFEUwVVBQVXlxOWMyQ3QwVW9wYnAwGLjNluWzMSB9KO6gGTCsFToWY29tLnRoaW5rd2FyZS5pbmF2aWFpckIaY3JzZXJ2ZS1za2FuLXBvZC1leHAtdGllcjJCEmhscy12aWRlby1wcm9kLWhsc0IYaW5tb2JpLTMtcGFnZS1leHBlcmltZW50SgplN2IzMTQ0NTA4UAJaA0tPUmACaARyDmFwLW5vcnRoZWFzdC0x4AECgAF9kgECa2-YAQKhAQAAAAAAALA_qgEHMzIweDQ4MLIBEU1hcHMgJiBOYXZpZ2F0aW9uugEw7JWE7J2064KY67mEIOyXkOyWtCAtIOuPiCDrsoTripQg64K067mE6rKM7J207IWYwgEZdmFzdC0wZDA1MzBkM2U3ODhhNTFiOGZhM9IBAzMyNtoBBXZpZGVv?playhead=[CONTENTPLAYHEAD]&sr=1]]>
+                            </Tracking>
+                            <Tracking event="midpoint">
+                                <![CDATA[https://adexp.liftoff.io/event/vast/midpoint/29c98eCO-aChIoMjAyMzEwMTcwNzU5MzEyMjViNjdkNDgyYzIwM2I0MTI4ODM3NmQzY-oBFEUwVVBQVXlxOWMyQ3QwVW9wYnAwGLjNluWzMSB9KO6gGTCsFToWY29tLnRoaW5rd2FyZS5pbmF2aWFpckIaY3JzZXJ2ZS1za2FuLXBvZC1leHAtdGllcjJCEmhscy12aWRlby1wcm9kLWhsc0IYaW5tb2JpLTMtcGFnZS1leHBlcmltZW50SgplN2IzMTQ0NTA4UAJaA0tPUmACaARyDmFwLW5vcnRoZWFzdC0x4AECgAF9kgECa2-YAQKhAQAAAAAAALA_qgEHMzIweDQ4MLIBEU1hcHMgJiBOYXZpZ2F0aW9uugEw7JWE7J2064KY67mEIOyXkOyWtCAtIOuPiCDrsoTripQg64K067mE6rKM7J207IWYwgEZdmFzdC0wZDA1MzBkM2U3ODhhNTFiOGZhM9IBAzMyNtoBBXZpZGVv?playhead=[CONTENTPLAYHEAD]&sr=1]]>
+                            </Tracking>
+                            <Tracking event="thirdQuartile">
+                                <![CDATA[https://adexp.liftoff.io/event/vast/thirdQuartile/29c98eCO-aChIoMjAyMzEwMTcwNzU5MzEyMjViNjdkNDgyYzIwM2I0MTI4ODM3NmQzY-oBFEUwVVBQVXlxOWMyQ3QwVW9wYnAwGLjNluWzMSB9KO6gGTCsFToWY29tLnRoaW5rd2FyZS5pbmF2aWFpckIaY3JzZXJ2ZS1za2FuLXBvZC1leHAtdGllcjJCEmhscy12aWRlby1wcm9kLWhsc0IYaW5tb2JpLTMtcGFnZS1leHBlcmltZW50SgplN2IzMTQ0NTA4UAJaA0tPUmACaARyDmFwLW5vcnRoZWFzdC0x4AECgAF9kgECa2-YAQKhAQAAAAAAALA_qgEHMzIweDQ4MLIBEU1hcHMgJiBOYXZpZ2F0aW9uugEw7JWE7J2064KY67mEIOyXkOyWtCAtIOuPiCDrsoTripQg64K067mE6rKM7J207IWYwgEZdmFzdC0wZDA1MzBkM2U3ODhhNTFiOGZhM9IBAzMyNtoBBXZpZGVv?playhead=[CONTENTPLAYHEAD]&sr=1]]>
+                            </Tracking>
+                            <Tracking event="complete">
+                                <![CDATA[https://adexp.liftoff.io/event/vast/complete/29c98eCO-aChIoMjAyMzEwMTcwNzU5MzEyMjViNjdkNDgyYzIwM2I0MTI4ODM3NmQzY-oBFEUwVVBQVXlxOWMyQ3QwVW9wYnAwGLjNluWzMSB9KO6gGTCsFToWY29tLnRoaW5rd2FyZS5pbmF2aWFpckIaY3JzZXJ2ZS1za2FuLXBvZC1leHAtdGllcjJCEmhscy12aWRlby1wcm9kLWhsc0IYaW5tb2JpLTMtcGFnZS1leHBlcmltZW50SgplN2IzMTQ0NTA4UAJaA0tPUmACaARyDmFwLW5vcnRoZWFzdC0x4AECgAF9kgECa2-YAQKhAQAAAAAAALA_qgEHMzIweDQ4MLIBEU1hcHMgJiBOYXZpZ2F0aW9uugEw7JWE7J2064KY67mEIOyXkOyWtCAtIOuPiCDrsoTripQg64K067mE6rKM7J207IWYwgEZdmFzdC0wZDA1MzBkM2U3ODhhNTFiOGZhM9IBAzMyNtoBBXZpZGVv?playhead=[CONTENTPLAYHEAD]&sr=1]]>
+                            </Tracking>
+                        </TrackingEvents>
+                        <VideoClicks>
+                            <ClickThrough>
+                                <![CDATA[https://play.google.com/store/apps/details?id=com.mistplay.mistplay&referrer=Liftoff_v.2_g.167279_a.20231017075931225b67d482c203b41288376d3c_c.125_t.ua_u.e0e64ed651c798d1]]>
+                            </ClickThrough>
+                            <ClickTracking>
+                                <![CDATA[https://click.liftoff.io/v1/campaign_click/6CxukIQVEdDnAPnpqVOUbNyJOVA6uZ9HgPK9T-qHkKGyqVcbOJ-ZPyP58EbZGT5o297za7t3bfZmOJUJ2ByXwR-9zBDZ4k4ystU6btWEE4FMIB6Pqq7ECECCtcMDNrZ3jl5RdWaNZYyYIRxrD6Nw7ADb6jBmrZmmY7KLW4BMjopk0HTW0WLQbUgrJ4eNZLt34d5LojGE4MwBhifF3ROv4d-BxV-s60OESNbDKUexIuSrAzxCfw0WuvJxSOhQIfLk0FjJM_Q4mwxNOPrHgyPCp2hL5beIOer7msIisqSE4q520qCuN932lPfZyqQKUk3zzPmKBOKPqYfTxPAtAks01V_mYlhIbh7LNl6t5YNJxFdwsAbh9gyo_L8ImOq46UVmB4eV6OGU8WElRQKyBJYP0nSy8DoKrTY9oZ1n8LyL2kEBpb5OISkhwF31QOlWXVmYYzeIrlycPP0R_ZuWcWLx4yF3ijNE6MdeSv1VGYZvEBwAvPI0ijsO42iNn7T9Jzts3t8l4Bha7Rd8WKiuNY5mkO-RY_U8BC-AGmldKg?vast_el=1]]>
+                            </ClickTracking>
+                        </VideoClicks>
+                    </Linear>
+                </Creative>
+                <Creative>
+                    <CompanionAds>
+                        <Companion assetWidth="640" assetHeight="960" width="320" height="480">
+                            <StaticResource creativeType="image/png">
+                                <![CDATA[https://cdn.liftoff-creatives.io/customers/c23243a642/image/lambda_png/20a26641808a87adf1c9.png]]>
+                            </StaticResource>
+                            <CompanionClickThrough>
+                                <![CDATA[https://play.google.com/store/apps/details?id=com.mistplay.mistplay&referrer=Liftoff_v.2_g.167279_a.20231017075931225b67d482c203b41288376d3c_c.125_t.ua_u.e0e64ed651c798d1]]>
+                            </CompanionClickThrough>
+                            <CompanionClickTracking>
+                                <![CDATA[https://click.liftoff.io/v1/campaign_click/6CxukIQVEdDnAPnpqVOUbNyJOVA6uZ9HgPK9T-qHkKGyqVcbOJ-ZPyP58EbZGT5o297za7t3bfZmOJUJ2ByXwR-9zBDZ4k4ystU6btWEE4FMIB6Pqq7ECECCtcMDNrZ3jl5RdWaNZYyYIRxrD6Nw7ADb6jBmrZmmY7KLW4BMjopk0HTW0WLQbUgrJ4eNZLt34d5LojGE4MwBhifF3ROv4d-BxV-s60OESNbDKUexIuSrAzxCfw0WuvJxSOhQIfLk0FjJM_Q4mwxNOPrHgyPCp2hL5beIOer7msIisqSE4q520qCuN932lPfZyqQKUk3zzPmKBOKPqYfTxPAtAks01V_mYlhIbh7LNl6t5YNJxFdwsAbh9gyo_L8ImOq46UVmB4eV6OGU8WElRQKyBJYP0nSy8DoKrTY9oZ1n8LyL2kEBpb5OISkhwF31QOlWXVmYYzeIrlycPP0R_ZuWcWLx4yF3ijNE6MdeSv1VGYZvEBwAvPI0ijsO42iNn7T9Jzts3t8l4Bha7Rd8WKiuNY5mkO-RY_U8BC-AGmldKg?vast_el=2]]>
+                            </CompanionClickTracking>
+                            <TrackingEvents>
+                                <Tracking event="creativeView">
+                                    <![CDATA[https://adexp.liftoff.io/event/vast/staticEndscreenView/29c98eCO-aChIoMjAyMzEwMTcwNzU5MzEyMjViNjdkNDgyYzIwM2I0MTI4ODM3NmQzY-oBFEUwVVBQVXlxOWMyQ3QwVW9wYnAwGLjNluWzMSB9KO6gGTCsFToWY29tLnRoaW5rd2FyZS5pbmF2aWFpckIaY3JzZXJ2ZS1za2FuLXBvZC1leHAtdGllcjJCEmhscy12aWRlby1wcm9kLWhsc0IYaW5tb2JpLTMtcGFnZS1leHBlcmltZW50SgplN2IzMTQ0NTA4UAJaA0tPUmACaARyDmFwLW5vcnRoZWFzdC0x4AECgAF9kgECa2-YAQKhAQAAAAAAALA_qgEHMzIweDQ4MLIBEU1hcHMgJiBOYXZpZ2F0aW9uugEw7JWE7J2064KY67mEIOyXkOyWtCAtIOuPiCDrsoTripQg64K067mE6rKM7J207IWYwgEZdmFzdC0wZDA1MzBkM2U3ODhhNTFiOGZhM9IBAzMyNtoBBXZpZGVv?playhead=[CONTENTPLAYHEAD]&sr=1]]>
+                                </Tracking>
+                            </TrackingEvents>
+                        </Companion>
+                    </CompanionAds>
+                </Creative>
+            </Creatives>
+        </InLine>
+    </Ad>
+</VAST>
