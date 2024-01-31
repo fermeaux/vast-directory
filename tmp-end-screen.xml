@@ -1,0 +1,87 @@
+<VAST version="3.0">
+  <Ad id="fc96aad34bbc4a9ab3c17fda89913cad">
+    <InLine>
+      <AdSystem>
+        <![CDATA[Bluesea]]>
+      </AdSystem>
+      <AdTitle>
+        <![CDATA[Puzzles & Survival]]>
+      </AdTitle>
+      <Creatives>
+        <Creative id="cc3e7e3a21c49f2dfc1a05246967be77">
+          <Linear>
+            <Duration>00:00:29</Duration>
+            <TrackingEvents>
+              <Tracking event="start">
+                <![CDATA[https://sg-trk.bluevoox.com/vdt?cm=131&sk=203561&af=3&ts=1651667745&id=6e8137a18d764b829026a672c22bb21b&pt=MDOwAjLy0zYwZyM2ATNuETPihnJ0gDMw4iM9IHa&ty=1]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://sg-trk.bluevoox.com/vdt?cm=131&sk=203561&af=3&ts=1651667745&id=6e8137a18d764b829026a672c22bb21b&pt=MDOwAjLy0zYwZyM2ATNuETPihnJ0gDMw4iM9IHa&ty=5]]>
+              </Tracking>
+              <Tracking event="start">
+                <![CDATA[https://rus-trk.ascope.co/vdt?cm=1&sk=203723&af=3&ts=1705393074&id=fc96aad34bbc4a9ab3c17fda89913cad&uip=223.54.232.157&pt=AMuATPjBnJxADMw4SM9IGemEDMw4SM9IHa&ty=1]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://rus-trk.ascope.co/vdt?cm=1&sk=203723&af=3&ts=1705393074&id=fc96aad34bbc4a9ab3c17fda89913cad&uip=223.54.232.157&pt=AMuATPjBnJxADMw4SM9IGemEDMw4SM9IHa&ty=5]]>
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickThrough>
+                <![CDATA[https://play.google.com/store/apps/details?id=com.global.ztmslg]]>
+              </ClickThrough>
+              <ClickTracking>
+                <![CDATA[https://sg-trk.bluevoox.com/clk?cm=131&sk=203561&af=3&ts=1651667745&id=6e8137a18d764b829026a672c22bb21b&pt=MDOwAjLy0zYwZyM2ATNuETPihnJ0gDMw4iM9IHa]]>
+              </ClickTracking>
+              <ClickTracking>
+                <![CDATA[https://rus-trk.ascope.co/clk?cm=1&sk=203723&af=3&ts=1705393074&id=fc96aad34bbc4a9ab3c17fda89913cad&uip=223.54.232.157&pt=AMuATPjBnJxADMw4SM9IGemEDMw4SM9IHa]]>
+              </ClickTracking>
+            </VideoClicks>
+            <MediaFiles>
+              <MediaFile delivery="progressive" type="video/mp4" width="720" height="1280">
+                <![CDATA[https://ww0.bluevoox.com/samples/6e8137a18d764b829026a672c22bb21b/bs_sample_video.mp4]]>
+              </MediaFile>
+            </MediaFiles>
+          </Linear>
+        </Creative>
+        <Creative>
+          <CompanionAds>
+            <Companion id="post-roll" width="480" height="320">
+              <CompanionClickThrough>
+                <![CDATA[https://play.google.com/store/apps/details?id=com.global.ztmslg]]>
+              </CompanionClickThrough>
+              <TrackingEvents>
+                <Tracking event="creativeView">
+                  <![CDATA[https://sg-trk.bluevoox.com/vdt?cm=131&sk=203561&af=3&ts=1651667745&id=6e8137a18d764b829026a672c22bb21b&pt=MDOwAjLy0zYwZyM2ATNuETPihnJ0gDMw4iM9IHa&ty=6]]>
+                </Tracking>
+                <Tracking event="creativeView">
+                  <![CDATA[https://rus-trk.ascope.co/vdt?cm=1&sk=203723&af=3&ts=1705393074&id=fc96aad34bbc4a9ab3c17fda89913cad&uip=223.54.232.157&pt=AMuATPjBnJxADMw4SM9IGemEDMw4SM9IHa&ty=6]]>
+                </Tracking>
+              </TrackingEvents>
+              <StaticResource creativeType="image/jpeg">
+                <![CDATA[https://ww0.bluevoox.com/samples/6e8137a18d764b829026a672c22bb21b/bs_sample_video_companion_ads.jpg]]>
+              </StaticResource>
+              <CompanionClickTracking>
+                <![CDATA[https://sg-trk.bluevoox.com/vdt?cm=131&sk=203561&af=3&ts=1651667745&id=6e8137a18d764b829026a672c22bb21b&pt=MDOwAjLy0zYwZyM2ATNuETPihnJ0gDMw4iM9IHa&ty=7]]>
+              </CompanionClickTracking>
+              <CompanionClickTracking>
+                <![CDATA[https://rus-trk.ascope.co/vdt?cm=1&sk=203723&af=3&ts=1705393074&id=fc96aad34bbc4a9ab3c17fda89913cad&uip=223.54.232.157&pt=AMuATPjBnJxADMw4SM9IGemEDMw4SM9IHa&ty=7]]>
+              </CompanionClickTracking>
+            </Companion>
+          </CompanionAds>
+        </Creative>
+      </Creatives>
+      <Description>
+        <![CDATA[Survive to tomorrow.]]>
+      </Description>
+      <Impression id="51b649ceaf3e4c32b1ccd0357ef0342c">
+        <![CDATA[https://sg-trk.bluevoox.com/imp?cm=131&sk=203561&af=3&ts=1651667745&id=6e8137a18d764b829026a672c22bb21b&pt=MDOwAjLy0zYwZyM2ATNuETPihnJ0gDMw4iM9IHa&price=${AUCTION_PRICE}]]>
+      </Impression>
+      <Impression id="d3d202f982d84a2aa9c3df749e67098f">
+        <![CDATA[https://rus-trk.ascope.co/imp?cm=1&sk=203723&af=3&ts=1705393074&id=fc96aad34bbc4a9ab3c17fda89913cad&uip=223.54.232.157&pt=AMuATPjBnJxADMw4SM9IGemEDMw4SM9IHa&price=${AUCTION_PRICE}]]>
+      </Impression>
+      <Impression id="9319f49bf03342ca87aeb7396f58587a">
+        <![CDATA[https://adrta.com/i?clid=bsh&paid=bsh&dvid=v&avid=1&caid=test_cid&plid=test_crid&publisherId=595cb8330ceef66964001700&siteId=com.sundaytoz.mobile.anipang2.google.kakao.service&kv14=&kv1=1080x1920&kv3=dab3d98a48159eac91781aac6cb0e5dd&kv4=223.54.232.157&kv7=203723&kv11=fc96aad34bbc4a9ab3c17fda89913cad&kv12=179138&kv15=KOR&kv16=35.1893&kv17=128.0843&kv18=com.sundaytoz.mobile.anipang2.google.kakao.service&kv19=09000756-ad2d-4b6d-aba8-f898dcf082ea&kv25=%EC%95%A0%EB%8B%88%ED%8C%A12+-+AOS&kv26=Android&kv27=Mozilla%2F5.0+%28Linux%3B+Android+13%3B+SM-S901N+Build%2FTP1A.220624.014%3B+wv%29+AppleWebKit%2F537.36+%28KHTML%2C+like+Gecko%29+Version%2F4.0+Chrome%2F118.0.0.0+Mobile+Safari%2F537.36&kv28=Android+13.0&kv29=[ERRORCODE]&kv30=[CONTENTPLAYHEAD]_[ADPLAYHEAD]&kv33=[ASSETURI]&kv34=[VASTVERSIONS]&kv35=[IFATYPE]&kv36=[IFA]&kv37=[CLIENTUA]&kv38=[SERVERUA]&kv39=[DEVICEUA]&kv40=[DEVICEIP]&kv41=[LATLONG]&kv42=[DOMAIN]&kv43=[PAGEURL]&kv44=unknown&kv45=[PLAYERSIZE]&kv46=[REGULATIONS]&kv47=[ADTYPE]&kv48=[TRANSACTIONID]&kv49=[BREAKPOSITION]&kv50=[APPNAME]&kv51=[PLACEMENTTYPE]&kv52=1&kv62=2.2.8&kv63=&kv71=0&kv24=Mobile_InApp_Video&cb=1705393074696]]>
+      </Impression>
+    </InLine>
+  </Ad>
+</VAST>
