@@ -1,0 +1,136 @@
+<VAST version="4.0">
+  <Ad id="82f2dbcf-9751-4355-9b48-a32649abbbd5">
+    <Wrapper>
+      <AdSystem version="v1">SMART Adserver</AdSystem>
+      <VASTAdTagURI>
+        <![CDATA[https://use1.smartadserver.com/rv?vastid=2d355db0-931c-4951-99bd-884b76ec31e4&networkId=4537]]>
+      </VASTAdTagURI>
+      <Error>
+        <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=10009&ec=[ERRORCODE]]]>
+      </Error>
+      <Impression id="impression_smart">
+        <![CDATA[https://ssb-use1.smartadserver.com/api/imp?callerid=73&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&rtb=1&rtbnid=4537&rtbbid=2d355db0-931c-4951-99bd-884b76ec31e4&rtbh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&rtblt=638810015116581492&rtbet=2&rtbptnid=84&cftgid=638b2b454d4f]]>
+      </Impression>
+      <Impression id="impression_smart">
+        <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=10031]]>
+      </Impression>
+      <AdVerifications>
+        <Verification vendor="equativ">
+          <JavaScriptResource apiFramework="omid" browserOptional="false">
+            <![CDATA[https://apps.sascdn.com/verification-client-script/equativ-verification-script-1.1.js]]>
+          </JavaScriptResource>
+          <VerificationParameters>
+            <![CDATA[viewcount=https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&actionid=41&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb||viewundetermined=https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&actionid=52&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb]]>
+          </VerificationParameters>
+          <TrackingEvents>
+            <Tracking event="verificationNotExecuted">
+              <![CDATA[https://verification.com/omid_error?reason=[REASON]]]>
+            </Tracking>
+          </TrackingEvents>
+        </Verification>
+      </AdVerifications>
+      <Creatives>
+        <Creative id="linear_82f2dbcf-9751-4355-9b48-a32649abbbd5">
+          <Linear>
+            <TrackingEvents>
+              <Tracking event="mute">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=18]]>
+              </Tracking>
+              <Tracking event="unmute">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=19]]>
+              </Tracking>
+              <Tracking event="pause">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=20]]>
+              </Tracking>
+              <Tracking event="resume">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=22]]>
+              </Tracking>
+              <Tracking event="rewind">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=21]]>
+              </Tracking>
+              <Tracking event="start">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=2]]>
+              </Tracking>
+              <Tracking event="start">
+                <![CDATA[https://sb.scorecardresearch.com/p?c1=2&c2=18060076&ns_ap_sv=2.1511.10&ns_type=hidden&ns_st_it=a&ns_st_sv=4.0.0&ns_st_ad=1&ns_st_sq=1&ns_st_id=82f2dbcf-9751-4355-9b48-a32649abbbd5&ns_st_ec=1&ns_st_cn=1&ns_st_ev=play&ns_st_ct=va&ns_st_cl=20000&ns_st_pt=0&c3=*null&c4=*null&c6=*null&ns_ts=1745404711899]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=14]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=15]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=16]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=17]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://sb.scorecardresearch.com/p?c1=2&c2=18060076&ns_ap_sv=2.1511.10&ns_type=hidden&ns_st_it=a&ns_st_sv=4.0.0&ns_st_ad=1&ns_st_sq=1&ns_st_id=82f2dbcf-9751-4355-9b48-a32649abbbd5&ns_st_ec=2&ns_st_cn=1&ns_st_ev=end&ns_st_ct=va&ns_st_cl=20000&ns_st_pt=20000&c3=*null&c4=*null&c6=*null&ns_ts=1745404731899]]>
+              </Tracking>
+              <Tracking event="skip">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=27]]>
+              </Tracking>
+              <Tracking event="playerExpand">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=23]]>
+              </Tracking>
+              <Tracking event="playerCollapse">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=24]]>
+              </Tracking>
+              <Tracking event="otherAdInteraction">
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=58]]>
+              </Tracking>
+              <Tracking event="thirdQuartile">
+                <![CDATA[https://dsp-1.ogury.io/vast_event/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y/thirdQuartile]]>
+              </Tracking>
+              <Tracking event="midpoint">
+                <![CDATA[https://dsp-1.ogury.io/vast_event/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y/midpoint]]>
+              </Tracking>
+              <Tracking event="start">
+                <![CDATA[https://dsp-1.ogury.io/vast_event/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y/start]]>
+              </Tracking>
+              <Tracking event="firstQuartile">
+                <![CDATA[https://dsp-1.ogury.io/vast_event/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y/firstQuartile]]>
+              </Tracking>
+              <Tracking event="complete">
+                <![CDATA[https://dsp-1.ogury.io/vast_event/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y/complete]]>
+              </Tracking>
+            </TrackingEvents>
+            <VideoClicks>
+              <ClickTracking>
+                <![CDATA[https://ssb-use1.smartadserver.com/api/event?actionid=10008&acd=1745404711658&bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb]]>
+              </ClickTracking>
+              <ClickTracking>
+                <![CDATA[https://dsp-1.ogury.io/click/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y///]]>
+              </ClickTracking>
+            </VideoClicks>
+          </Linear>
+        </Creative>
+      </Creatives>
+      <ViewableImpression id="SMART AdServer">
+        <Viewable>
+          <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=41]]>
+        </Viewable>
+        <ViewUndetermined>
+          <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=52]]>
+        </ViewUndetermined>
+      </ViewableImpression>
+      <Extensions>
+        <Extension type="activeview">
+          <CustomTracking>
+            <Tracking event="viewable_impression">
+              <![CDATA[https://ssb-use1.smartadserver.com/api/event?bid=1&callerid=73&bidh=a5dea5e8cce7d5a7207abd8d45c5901da98d0e53&bidid=2d355db0-931c-4951-99bd-884b76ec31e4&bidenv=2&bidtime=638810015116581492&bidnwid=4537&rtbchc=-2860746017332524575&abpos=[PODSEQUENCE]&opid=033b3c29-50ab-47ed-8921-3e3bb5381b17&opdt=1745404711658&bldv=6023&srcfn=ssb&actionid=41]]>
+            </Tracking>
+          </CustomTracking>
+        </Extension>
+      </Extensions>
+      <Impression>
+        <![CDATA[https://dsp-1.ogury.io/imp/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y//${ODIN_CONTEXT}]]>
+      </Impression>
+      <Error>
+        <![CDATA[https://dsp-1.ogury.io/vast_error/I3ht47ujTknhdf9Bp9N9rDkQFlQyvM1Y0rh4l-0ybUkXJd6RbIA8HkO1QG0RLipkqwksCCAmnBVfzP7WKDx1FQqk0OfOXdJk3e2BgxSTZw7VGpUdrflHpPK-zrzcGn6NQiMgEq1JH0R8YxGMJD-eACpEE-twIs2CoHPrs6GT-JOuWL3KDif8IjT91JqAUtI1vxb8RNHcUeWxkma_MdTLOQUagfjAZR9HKG0OecKDuI4jszT3t5XyrlVfuxBYsnhwNXJVENs0OpiHxjZcA8aBz3gr6ZFJE-czkwVoiZpdX2FZacOGt5Whw0tAZb_s1GuBGJwr4-RjYMdrpmNX4c1SRKEEdYg2Iji8pbzd2BVMDCokvrykECP7F5e6TzAU4qR3qhtv3A8Ai50neKR_vf2gLwQNt1MM-ET01NM2dEV5yXhb9aYvOcRWsIvfuXhYo9wTyAbxDtxiEjigRQnVMC--8xC87mAqxUu1QmveED0YlCGM4JzeR12GgbtkJg3fhDmJkObKLdfN1CgeiSDvUH7lHPUuCVSwI9z2aqIqLEmeKK8aEJ4vLSpwZGqKC_lK8c1UgSrIMeuIF9rpVT13W7xEXJPIWAcrlC-HLzVXoDykh6sDqrlYGVm8nFtJjFjtAD6ICTM31230tyq3Bpu74Sj5JHEiqSVSNRhJqOwswUu21rsP2hXj0sTnQHJzsgy-hBeVr_ga16U4bg57kroLexNkWPySjdRpzzpmifsXgaOVPQ037BZhGirC1oJrm4kfs_dld5t3MxRj9gJLYM2UZPFumyRUw4VvNMJ1j_VF78gh1O07Qt8eHZKHVLxBuE-linnFWrjtVtSOv_H9T3rMGHkGtxzsMzKoqQ4RtVsHqSeftHNfCMuvwVf0SQ1erPgTC-sdZ0AXSAzhbeMLHbGvjhgO3Aa1TGccXfYjqT9vTg2sXhEMgkWHWZJ7OMbc7RG86v3fML9vvUhXcgn31RJP6a2mTTjjRSpTDbRKd8ZAuc9vBO8_krw5iDFxv9Rg4qnOWAaWiSCEW5_kO4PjEGTNPBRJx4JMEo0v7iIOPpIqh0DzjozV14_9KQxeY4ai74q_DF1MgwSeYL97ghZbTCgfEeCBcjuD8UspENrXQI-JdL5kgYYfcSB88QSKu3gg2_PVWC8EAAcU0ucTXnx93NHr9FAmBIvVR7HG8Hhg0cG0ag_H9Z9mCUr365PtnmPSzgFxdxMVvjze4isnfOAPptOfMRlMPd3oTbrzAjPYeURD6H8WJVm3C4-yiFX3Nh30gJb3DCWi-Kt9-yfzs7gFsgPIuW4FAg3yDCGhoN1SvZoOtE9t8sqPG1ZQkfSbRFCIB5wfy6N94mgoQndXFHXl6Cc5m1eblsJwuXrADUHRtnRvAnStCVlByorSnvKVheVwgZKda3RSUDGw3juNk3M1CViYfnYVg7HTVHIdwTacLVlCmCTxeYU8KrKVIMHoVPz1n0NNPlz6z0ueU0WRt-8uBE1ogfIoL5bFSjvwmg1Y8I524Lo5944ZNGfa9wyB95rQ-IatDk3t7l_QHq39Btzfxwsjq8I2GJ6pS-uCakbbSmtbHgUotK5wPemLx5AyLmwLgwfOVD6cC-aySs1gnwssTnn3tbiL01UIQxRLjPjssnuD-5YHegleAq5GxObq0VoBaNdnrtBv5cTF_U465R9VNFm5YVugDLYGJzglLk8sq-s20Aqom59ym-Zs3lQylwYwS9cLeoRNMtiB7eYfpmeq4of7hqK3gRL7TSjB9s3FPrk0MnWAD9iju5Y?err_code=[ERRORCODE]]]>
+      </Error>
+    </Wrapper>
+  </Ad>
+</VAST>
